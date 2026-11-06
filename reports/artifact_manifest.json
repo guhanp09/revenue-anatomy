@@ -1,0 +1,103 @@
+{
+  "checks_passed": 26,
+  "checks": [
+    "All numerical metrics are finite",
+    "Generated results match the current analytical source files",
+    "PDF report has a valid document header",
+    "Analysis includes substantive methods and limitations",
+    "commercial_review.xlsx workbook structure",
+    "commercial_review.xlsx has no cached Excel errors in xl/worksheets/sheet1.xml",
+    "commercial_review.xlsx has no broken references in xl/worksheets/sheet1.xml",
+    "commercial_review.xlsx has no cached Excel errors in xl/worksheets/sheet2.xml",
+    "commercial_review.xlsx has no broken references in xl/worksheets/sheet2.xml",
+    "commercial_review.xlsx has no cached Excel errors in xl/worksheets/sheet3.xml",
+    "commercial_review.xlsx has no broken references in xl/worksheets/sheet3.xml",
+    "commercial_review.xlsx has no cached Excel errors in xl/worksheets/sheet4.xml",
+    "commercial_review.xlsx has no broken references in xl/worksheets/sheet4.xml",
+    "commercial_review.xlsx has no cached Excel errors in xl/worksheets/sheet5.xml",
+    "commercial_review.xlsx has no broken references in xl/worksheets/sheet5.xml",
+    "commercial_review.xlsx has no cached Excel errors in xl/worksheets/sheet6.xml",
+    "commercial_review.xlsx has no broken references in xl/worksheets/sheet6.xml",
+    "commercial_review.xlsx has no cached Excel errors in xl/worksheets/sheet7.xml",
+    "commercial_review.xlsx has no broken references in xl/worksheets/sheet7.xml",
+    "commercial_review.xlsx has no cached Excel errors in xl/worksheets/sheet8.xml",
+    "commercial_review.xlsx has no broken references in xl/worksheets/sheet8.xml",
+    "Source equals classified plus quarantined amount",
+    "SQL monthly totals reconcile to classified ledger",
+    "Revenue bridge reconciles to net movement",
+    "Management presentation contains five slides",
+    "Excel management model contains live formulas"
+  ],
+  "workbooks": [
+    {
+      "file": "commercial_review.xlsx",
+      "formula_count": 92
+    }
+  ],
+  "artifacts": {
+    "analysis.md": {
+      "bytes": 2450,
+      "sha256": "1bb7c779d5addc4441d2712efb712ffe1c03489bfc37837f15c71ffa82cf61a3"
+    },
+    "analysis.pdf": {
+      "bytes": 3541,
+      "sha256": "172a62d70d18a256782a6c41653e7df6e450c7e9bf1c8637b4fc791a5ec6dae8"
+    },
+    "build_manifest.json": {
+      "bytes": 779,
+      "sha256": "a786d16bd7b0c744e020efc823038231e6eec92e5767f14f286ed1a721953db1"
+    },
+    "cohort_retention.csv": {
+      "bytes": 3714,
+      "sha256": "33418598c5755a40cba813f81377e00c79b910bf81698a8b253839031f207a36"
+    },
+    "commercial_review.xlsx": {
+      "bytes": 329543,
+      "sha256": "4cadbf73d9e5259589e8b84807c45f4965dbbc2f02d46346ab98ba9aeb9d4b72"
+    },
+    "cost_scenarios.csv": {
+      "bytes": 295,
+      "sha256": "32c09b8ebe4c8d57115d75663592ab7489a1e121e449a0e99efbfffaaa559523"
+    },
+    "customer_metrics.csv": {
+      "bytes": 282395,
+      "sha256": "ccb5543baf17211e6aa17f53f9bdca0cc40b5aa0027df8b9519fbbef9295a5c1"
+    },
+    "management_review.pptx": {
+      "bytes": 33037,
+      "sha256": "e91ecf673fc5558984b653dc6b63231fbbbad7ff510a101a0e5f89568deb0323"
+    },
+    "metrics.json": {
+      "bytes": 1071,
+      "sha256": "8df1c513108787249ad202f6de783e25e2983768276a09c7cd41455c95d799df"
+    },
+    "monthly_metrics.csv": {
+      "bytes": 1016,
+      "sha256": "89f328091d7b73c2164bd79468090076d283d7e16ee25181254128c12089f191"
+    },
+    "monthly_revenue.html": {
+      "bytes": 4860263,
+      "sha256": "06bdc3daa55326c16cd87a91642af762540da0dcd4237e52b70c1781860b6ffe"
+    },
+    "product_metrics.csv": {
+      "bytes": 138752,
+      "sha256": "ac8ee6ed89ddb23d34049ba7bf53bcba5762c1f849afd784b0a9faf5582a7477"
+    },
+    "reconciliation.json": {
+      "bytes": 378,
+      "sha256": "6902bb8d170e97467a7fd169bfce9af630321b7304304e27268a70324136f724"
+    },
+    "revenue_bridge.csv": {
+      "bytes": 277,
+      "sha256": "c795749eb7535c3aa0a90b5068b100a9ce4d003e2144fdcd9c403bf2937dacae"
+    },
+    "revenue_bridge.html": {
+      "bytes": 4859230,
+      "sha256": "37b704fddc702b4ed6c43d0b9ca3a0755557335a33bfb3a526e609bc0760b9ca"
+    },
+    "source_manifest.json": {
+      "bytes": 402,
+      "sha256": "e8184deedb831c5515adcf619b80c197c21cc08286efe3d94adc86a7d62d1d35"
+    }
+  }
+}

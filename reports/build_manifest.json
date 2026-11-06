@@ -1,0 +1,13 @@
+{
+  "generated_at_utc": "2026-11-06T09:30:05.919777+00:00",
+  "python": "3.12.7",
+  "platform": "macOS-26.3-arm64-arm-64bit",
+  "source_code_sha256": {
+    "src/revenue_anatomy/__init__.py": "b352ab8be9fe8aa09e96f68cc97258f33e632d08fb79e3b3604aba6f4725c759",
+    "src/revenue_anatomy/app.py": "f43d7cf0962859aaa549c2599f687e01f232eece9352c17643ee53260712f8bb",
+    "src/revenue_anatomy/cli.py": "89cbbd432a31f2aa2d822eff00f33dcf52c9114789069cc667dfb15ace81027b",
+    "src/revenue_anatomy/core.py": "82cb1a601f6aaf4206bb7e98c85d2574cb1b4753cd05c533e3b3a84dc7c9b247",
+    "src/revenue_anatomy/io.py": "663f4f0fd647f96163b1e8446ffc4fc9f39a69e543e110eff27537e66106acd6",
+    "src/revenue_anatomy/pipeline.py": "df337610828817c27fadf88d220196601bc663f0d72a2cdf80cf848c025be66a"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "unit": {
+    "passed": true,
+    "command": "-m pytest -q",
+    "output": "unit-validation.txt",
+    "tests_passed": 4
+  },
+  "lint": {
+    "passed": true,
+    "command": "-m ruff check src tests scripts",
+    "output": "lint-validation.txt"
+  },
+  "artifacts": {
+    "passed": true,
+    "command": "scripts/verify_artifacts.py",
+    "output": "artifacts-validation.txt"
+  },
+  "streamlit": {
+    "passed": true,
+    "method": "Streamlit AppTest: initial render and one scenario interaction; all six completed without application exceptions"
+  },
+  "browser": {
+    "passed": true,
+    "method": "Headless Google Chrome through Playwright, 1440x1100; initial view and screenshot",
+    "artifact": "preview.png"
+  },
+  "dependency_resolution": {
+    "passed": true,
+    "method": "pip install --dry-run --no-build-isolation -e .[dev] -c constraints.txt in the validation environment; this checks metadata consistency, not a clean installation"
+  },
+  "pipeline": {
+    "passed": true,
+    "method": "Full input pipeline run locally; no sampling flags; Casebook includes local generative example"
+  },
+  "container": {
+    "status": "configuration provided; full application image build not executed"
+  },
+  "cloud_deployment": {
+    "status": "not deployed"
+  },
+  "recorded_at_utc": "2026-11-06T09:30:58.350387+00:00",
+  "python": "3.12.7"
+}

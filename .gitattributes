@@ -1,0 +1,6 @@
+*.pdf binary
+*.xlsx binary
+*.pptx binary
+*.png binary
+reports/*.html -diff -whitespace linguist-generated=true
+reports/* linguist-generated=true

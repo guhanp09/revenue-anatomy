@@ -1,0 +1,10 @@
+{
+  "online_retail.zip.provenance.json": {
+    "url": "https://archive.ics.uci.edu/static/public/352/online+retail.zip",
+    "observed_at_utc": "2026-11-06T09:24:30.039788+00:00",
+    "retrieved_at_utc": null,
+    "sha256": "f5385cbb54bbebf7196389109c6b0621faab0c304e3702548165e71c84aede8b",
+    "bytes": 23715478,
+    "note": "Existing local download; original retrieval timestamp not captured"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "project": "revenue-anatomy",
+  "checks_passed": 26,
+  "workbooks": [
+    {
+      "file": "commercial_review.xlsx",
+      "formula_count": 92
+    }
+  ]
+}

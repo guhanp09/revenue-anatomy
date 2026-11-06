@@ -1,0 +1,39 @@
+{
+  "source_rows": 541909,
+  "duplicate_flagged_rows": 10147,
+  "missing_customer_rows": 135080,
+  "quarantine_rows": 2,
+  "classification_counts": {
+    "product_sale": 527342,
+    "credit": 10624,
+    "adjustment": 2780,
+    "zero_price": 1161,
+    "quarantine": 2
+  },
+  "gross_product_sales": 10254118.89,
+  "net_revenue": 9769872.054,
+  "unknown_customer_gross_share": 0.1470892746787725,
+  "top10_known_customer_share": 0.17380683536646616,
+  "bridge": {
+    "before": "2011-10",
+    "after": "2011-11",
+    "opening": 1070704.67,
+    "closing": 1461756.25,
+    "difference": 5.820766091346741e-11
+  },
+  "partial_final_month": "2011-12",
+  "reconciliation": {
+    "source_amount": 9747747.934,
+    "classified_amount": 9769872.054,
+    "quarantined_amount": -22124.12,
+    "monthly_vs_ledger_difference": 0.0,
+    "duplicates_policy": "retained and flagged, not presumed erroneous",
+    "bridge": {
+      "before": "2011-10",
+      "after": "2011-11",
+      "opening": 1070704.67,
+      "closing": 1461756.25,
+      "difference": 5.820766091346741e-11
+    }
+  }
+}

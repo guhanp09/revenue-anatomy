@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=75"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "revenue-anatomy"
+version = "0.1.0"
+readme = "README.md"
+description = "Transaction-level revenue and customer analysis"
+requires-python = ">=3.11"
+authors = [{name = "Guhan Purushothaman"}]
+dependencies = ["numpy>=2,<2.4", "pandas", "requests", "openpyxl", "pyarrow", "streamlit", "plotly", "reportlab", "xlsxwriter", "python-pptx"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8", "ruff>=0.8"]
+
+[project.scripts]
+revenue-anatomy = "revenue_anatomy.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+
+[tool.ruff]
+line-length = 110
+
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F", "I", "B"]

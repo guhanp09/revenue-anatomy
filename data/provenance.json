@@ -1,0 +1,10 @@
+{
+  "source": "https://archive.ics.uci.edu/static/public/352/online+retail.zip",
+  "dataset": "UCI Online Retail, dataset 352",
+  "citation": "Chen, D. (2015), DOI:10.24432/C5BW33",
+  "license": "CC BY 4.0",
+  "geography": "UK-based non-store retailer; international customers",
+  "currency": "GBP",
+  "observed": "invoice transactions, prices, quantities, product IDs, customer IDs, countries",
+  "unavailable": "product costs, collections, marketing spend, true acquisition dates, causal price elasticities"
+}
